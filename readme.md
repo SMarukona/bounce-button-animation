@@ -1,10 +1,9 @@
-# Typing-Effect
+# Bounce effect for button in the window for every 10s
 
-The Typing effect is created fully with Javascript
 ### Links
 
-- Solution URL: [https://github.com/SMarukona/Typing-Effect]
-- Live Site URL: [https://smarukona.github.io/Typing-Effect]]
+- Solution URL: [https://github.com/SMarukona/bounce-button-animation]
+- Live Site URL: [https://smarukona.github.io/bounce-button-animation]]
 
 ### Built with
 
