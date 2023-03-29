@@ -1,0 +1,39 @@
+.bounce-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+.bounce-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E10300;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.bounce-btn-animation{
+  animation-duration: 0.5s;
+  animation-name: bounce-effect;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce-effect {
+  0%, 100% {
+        transform: translate(0,0);
+           }
+  10% {
+        transform: translate(0,2px);
+               }
+  50% {
+        transform: translate(0,-7px);
+      }
+  90% {
+        transform: translate(0,4px);
+      }
+}
